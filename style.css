@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: black;
+   color: aliceblue;
+}
+
+img{
+   width: 100%;
+   border-radius: 15px;
+}
+   
+nav{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+   font-size: 35px;
+   font-family: "Spicy Rice", serif;
+   letter-spacing: 2px;
+   text-shadow: 3px 5px blue;
+}
+.container{
+   column-count: 5;
+   padding: 15px;
+   column-width: 300px;
+}
+
+.img{
+   margin: 0 auto 10px;
+   max-width: 400px;
+   width: 100%;
+   position: relative;
+}
+   
+.download {
+   position: absolute;
+   bottom: 7px;
+   right: 5px; 
+   align-items: center;
+   padding: 5px;
+   border-radius: 50%;
+   background-color: rgba(128, 128, 128, 0.412);
+}
+   
+.download button{
+   background: transparent;
+   border: none;
+}
+
+.icon{
+   width: 24px;
+   height: 20px;
+   /* height: 100%; */
+}
+
+.download:hover{
+   opacity: 80%;
+   background-color: gray;
+   border-radius: 50%;
+}
